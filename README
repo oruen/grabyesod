@@ -1,0 +1,10 @@
+This script grabs the contents of the Yesod Book (http://yesodweb.com/book) and makes PDF file out of it.
+
+Preparations.
+Install wkhtmltopdf binaries from http://code.google.com/p/wkhtmltopdf/downloads/list or from source and be sure it uses patched qt library
+    cabal install hxt HandsomeSoup
+    ulimit -n 10000
+    ghc makebook.hs
+
+Run it!
+    ./makebook

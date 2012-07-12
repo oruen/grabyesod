@@ -1,0 +1,4 @@
+*.hi
+*.o
+YesodBook.pdf
+makebook
